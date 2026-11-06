@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://shababmuktadir.github.io/schoobi-app-user-student-release/sitemap.xml
