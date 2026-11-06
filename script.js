@@ -6,18 +6,15 @@ document.getElementById('lang-toggle').addEventListener('click', () => {
   });
 });
 
-// Contact Form Submission
 const contactForm = document.getElementById('contactForm');
 if (contactForm) {
   contactForm.addEventListener('submit', async (e) => {
     e.preventDefault();
     const formData = new FormData(contactForm);
     const data = Object.fromEntries(formData.entries());
-    
     const statusEl = document.getElementById('formStatus');
     statusEl.textContent = 'Sending...';
 
-    // এখানে আপনার Apps Script URL টি বসান
     const scriptURL = 'https://script.google.com/macros/s/AKfycbzUMnh0I9pQQ5KAo6mQbYI9_IYmh_KdWn5qg-TrM5_6eiTGuWU0AKa0EoHiwEORsPdD/exec';
     
     try {
