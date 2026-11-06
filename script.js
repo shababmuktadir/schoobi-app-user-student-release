@@ -18,7 +18,7 @@ if (contactForm) {
     statusEl.textContent = 'Sending...';
 
     // এখানে আপনার Apps Script URL টি বসান
-    const scriptURL = 'https://script.google.com/macros/s/YOUR_SCRIPT_ID_HERE/exec';
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzUMnh0I9pQQ5KAo6mQbYI9_IYmh_KdWn5qg-TrM5_6eiTGuWU0AKa0EoHiwEORsPdD/exec';
     
     try {
       const response = await fetch(scriptURL, {
