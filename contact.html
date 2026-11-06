@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - Schoobi</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-animation"></div>
+  <nav class="glass-nav">
+    <div class="logo neon-text">Schoobi</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><button id="lang-toggle" class="glass-btn">EN / বাংলা</button></li>
+    </ul>
+  </nav>
+  <main>
+    <section class="hero glass-card">
+      <h1 class="neon-text" data-en="Contact Sales" data-bn="সেলস টিমের সাথে যোগাযোগ">Contact Sales</h1>
+      <p data-en="Fill out the form below to get a quote for your school." data-bn="আপনার স্কুলের জন্য কোটেশন পেতে নিচের ফর্মটি পূরণ করুন।">Fill out the form...</p>
+      
+      <form id="contactForm" class="contact-form">
+        <input type="text" name="name" placeholder="Full Name" required>
+        <input type="email" name="email" placeholder="Email Address" required>
+        <input type="text" name="phone" placeholder="Phone Number" required>
+        <textarea name="message" rows="4" placeholder="Tell us about your institution..." required></textarea>
+        <button type="submit" class="glass-btn neon-border">Submit Request</button>
+      </form>
+      <p id="formStatus" style="margin-top: 10px; color: #39FF14;"></p>
+    </section>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
