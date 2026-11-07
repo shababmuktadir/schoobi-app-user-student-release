@@ -1,1 +1,13 @@
-{"name":"Schoobi","short_name":"Schoobi","start_url":"./index.html","display":"standalone","background_color":"#080b0a","theme_color":"#080b0a"}
+{
+  "name": "Schoobi School Management",
+  "short_name": "Schoobi",
+  "description": "Schoobi school management software by Muktadir Shabab",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#080b0a",
+  "theme_color": "#080b0a",
+  "icons": [
+    { "src": "https://res.cloudinary.com/eziibddg/image/upload/v1793774231/tcn0jrlad7ijxemuthmf.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "https://res.cloudinary.com/eziibddg/image/upload/v1793774231/tcn0jrlad7ijxemuthmf.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}
